@@ -1,0 +1,17 @@
+{
+  "className": "Part",
+  "properties": {
+    "Attributes": {},
+    "BottomSurface": "Smooth",
+    "CFrame": [-53, 13, 50.5, 0, 0, -1, 0, 1, 0, 1, 0, 0],
+    "Color": [248, 248, 248],
+    "Material": "Neon",
+    "Size": [15, 16, 2],
+    "Tags": ["roplica_id@39d89cf7-6e61-4918-a234-39882c950974"],
+    "TopSurface": "Smooth",
+    "Transparency": 0.9,
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a000036e7"
+    }
+  }
+}

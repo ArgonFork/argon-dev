@@ -1,0 +1,12 @@
+{
+  "className": "Model",
+  "originalName": "Model",
+  "properties": {
+    "Attributes": {},
+    "Tags": ["roplica_id@cd94c11a-8ef3-433a-9aee-0eb4c64adf9f"],
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00003245"
+    },
+    "WorldPivotData": [-53.5, 6.6, -16.0, 0, 0, 1, 0, 1, 0, -1, 0, 0]
+  }
+}

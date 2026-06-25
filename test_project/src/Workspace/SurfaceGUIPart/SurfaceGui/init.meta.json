@@ -1,0 +1,14 @@
+{
+  "className": "SurfaceGui",
+  "properties": {
+    "Attributes": {},
+    "ClipsDescendants": true,
+    "MaxDistance": 1000,
+    "SizingMode": "PixelsPerStud",
+    "Tags": ["roplica_id@38fb8712-1219-4bac-8bf5-f3ae208fb917"],
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00003b51"
+    },
+    "ZIndexBehavior": "Sibling"
+  }
+}

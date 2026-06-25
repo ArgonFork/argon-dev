@@ -1,0 +1,14 @@
+{
+  "className": "Part",
+  "properties": {
+    "Anchored": true,
+    "Attributes": {},
+    "CFrame": [1.0, 4.8, -4.0, 0, 0, -1, 0, 1, 0, 1, 0, 0],
+    "Color": [215, 197, 154],
+    "Size": [6, 2.4, 2],
+    "Tags": ["roplica_id@11b1fed8-5d60-4602-9dae-348cce22a915"],
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00002f86"
+    }
+  }
+}

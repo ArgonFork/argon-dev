@@ -1,0 +1,14 @@
+{
+  "className": "Decal",
+  "properties": {
+    "Attributes": {},
+    "HistoryId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a000060b5"
+    },
+    "Tags": ["roplica_id@61551257-75fa-4f43-b3eb-1fe39facc151"],
+    "TextureContent": "rbxassetid://9276018925",
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00006336"
+    }
+  }
+}

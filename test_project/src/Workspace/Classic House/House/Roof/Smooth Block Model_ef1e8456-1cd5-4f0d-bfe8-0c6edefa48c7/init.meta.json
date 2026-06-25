@@ -1,0 +1,15 @@
+{
+  "className": "Part",
+  "originalName": "Smooth Block Model",
+  "properties": {
+    "Anchored": true,
+    "Attributes": {},
+    "CFrame": [-50.0, 35.4, -30.0, -1, 0, 0, 0, 1, 0, 0, 0, -1],
+    "Color": [196, 40, 28],
+    "Size": [12, 1.2, 6],
+    "Tags": ["roplica_id@81e6eb57-962c-4290-acec-26bd41291652"],
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00003487"
+    }
+  }
+}

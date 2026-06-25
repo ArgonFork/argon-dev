@@ -1,0 +1,14 @@
+{
+  "className": "Model",
+  "properties": {
+    "Attributes": {},
+    "ModelMeshCFrame": [-13.065, -41.9023, -126.2743, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0],
+    "Scale": 0.9197,
+    "SourceAssetId": 3755594081,
+    "Tags": ["roplica_id@97e6ad9b-1167-456c-8581-a58bd497ee38"],
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00007bac"
+    },
+    "WorldPivotData": [-11.0628, 15.1806, -158.3743, 0, 0, 1, 0, 1, 0, -1, 0, 0]
+  }
+}

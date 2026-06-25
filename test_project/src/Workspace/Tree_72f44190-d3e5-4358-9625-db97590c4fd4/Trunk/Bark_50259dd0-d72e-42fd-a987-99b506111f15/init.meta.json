@@ -1,0 +1,19 @@
+{
+  "className": "Texture",
+  "originalName": "Bark",
+  "properties": {
+    "Attributes": {},
+    "Face": "Right",
+    "HistoryId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00007bb1"
+    },
+    "StudsPerTileU": 6.3383,
+    "StudsPerTileV": 5.0706,
+    "Tags": ["roplica_id@feaf6e1d-f654-4d3a-bdda-c1d951747240"],
+    "TextureContent": "rbxassetid://1352046477",
+    "Transparency": 0.3,
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a0000805f"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "className": "ServerStorage",
+  "keepUnknowns": true,
+  "properties": {
+    "Attributes": {},
+    "Tags": ["roplica_id@351d578e-13ed-4a73-9c4e-9ccb7e491278"],
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a0000039e"
+    }
+  }
+}

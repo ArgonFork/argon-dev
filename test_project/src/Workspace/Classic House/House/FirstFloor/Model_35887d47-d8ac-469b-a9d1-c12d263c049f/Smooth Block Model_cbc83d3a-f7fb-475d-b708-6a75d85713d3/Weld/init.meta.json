@@ -1,0 +1,12 @@
+{
+  "className": "Weld",
+  "properties": {
+    "Attributes": {},
+    "C0": [-0.5, 0, 0, 0, 0, -1, 0, 1, 0, 1, 0, 0],
+    "C1": [0.5, -0.0, 0.0, 0, 0, -1, 0, 1, 0, 1, 0, 0],
+    "Tags": ["roplica_id@6f4641ad-ab4a-48b2-a8d3-ec9cf47eeadd"],
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00003144"
+    }
+  }
+}

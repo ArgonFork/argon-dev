@@ -1,0 +1,12 @@
+{
+  "className": "Snap",
+  "properties": {
+    "Attributes": {},
+    "C0": [0, 1.2, 0, -1, 0, 0, 0, 0, 1, 0, 1, 0],
+    "C1": [-2.0, -1.2, 2.5, 0, -1, 0, 0, 0, 1, -1, 0, 0],
+    "Tags": ["roplica_id@4c3bc79d-9c19-4989-9d71-f2f16c50decf"],
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a000032ac"
+    }
+  }
+}

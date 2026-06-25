@@ -1,0 +1,557 @@
+{
+  "name": "test",
+  "tree": {
+    "$className": "DataModel",
+    "AssetService": {
+      "$className": "AssetService",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a00000385"
+        }
+      }
+    },
+    "AvatarSettings": {
+      "$className": "AvatarSettings",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a0000038e"
+        }
+      }
+    },
+    "Chat": {
+      "$path": "src/Chat"
+    },
+    "CollectionService": {
+      "$className": "CollectionService",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a00000347"
+        }
+      }
+    },
+    "ContextActionService": {
+      "$className": "ContextActionService",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a00000383"
+        }
+      }
+    },
+    "CookiesService": {
+      "$className": "CookiesService",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a0000037d"
+        }
+      }
+    },
+    "CSGDictionaryService": {
+      "$className": "CSGDictionaryService",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a00000356"
+        }
+      }
+    },
+    "DataStoreService": {
+      "$className": "DataStoreService",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a000005a4"
+        }
+      }
+    },
+    "Debris": {
+      "$className": "Debris",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a0000037c"
+        }
+      }
+    },
+    "FilteredSelection": {
+      "$className": "Instance",
+      "$properties": {
+        "Attributes": {},
+        "Capabilities": {
+          "SecurityCapabilities": 0
+        },
+        "Sandboxed": false,
+        "SourceAssetId": -1,
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "7f972faa445797d00a4c99a000000407"
+        }
+      }
+    },
+    "GamePassService": {
+      "$className": "GamePassService",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a0000037b"
+        }
+      }
+    },
+    "GuidRegistryService": {
+      "$className": "GuidRegistryService",
+      "$properties": {
+        "Attributes": {},
+        "Capabilities": {
+          "SecurityCapabilities": 0
+        },
+        "Sandboxed": false,
+        "SourceAssetId": -1,
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a00000393"
+        }
+      }
+    },
+    "HttpService": {
+      "$className": "HttpService",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a000003b2"
+        }
+      }
+    },
+    "InsertService": {
+      "$className": "InsertService",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a0000037a"
+        }
+      },
+      "InsertionHash": {
+        "$className": "StringValue",
+        "$properties": {
+          "Attributes": {},
+          "Tags": [],
+          "UniqueId": {
+            "UniqueId": "2d0ca22412d6ec600a477f1a000003cb"
+          },
+          "Value": "{B742A187-0148-42CC-8DD8-828C1C881DB0}"
+        }
+      }
+    },
+    "Instance": {
+      "$className": "ScriptService",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a00000384"
+        }
+      }
+    },
+    "Lighting": {
+      "$path": "src/Lighting"
+    },
+    "LocalizationService": {
+      "$className": "LocalizationService",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a00000371"
+        }
+      }
+    },
+    "LuaWebService": {
+      "$className": "LuaWebService",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a0000039a"
+        }
+      }
+    },
+    "MaterialService": {
+      "$className": "MaterialService",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a00000364"
+        },
+        "Use2022MaterialsXml": true
+      }
+    },
+    "NonReplicatedCSGDictionaryService": {
+      "$className": "NonReplicatedCSGDictionaryService",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a00000355"
+        }
+      }
+    },
+    "Packages": {
+      "$className": "Packages",
+      "$properties": {
+        "Tags": ""
+      }
+    },
+    "PermissionsService": {
+      "$className": "PermissionsService",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a00000367"
+        }
+      }
+    },
+    "PhysicsService": {
+      "$className": "PhysicsService",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a00000377"
+        }
+      }
+    },
+    "PlayerEmulatorService": {
+      "$className": "PlayerEmulatorService",
+      "$properties": {
+        "Attributes": {},
+        "EmulatedCountryCode": "US",
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a00000368"
+        }
+      }
+    },
+    "Players": {
+      "$path": "src/Players"
+    },
+    "ProcessInstancePhysicsService": {
+      "$className": "ProcessInstancePhysicsService",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a0000039b"
+        }
+      }
+    },
+    "ProximityPromptService": {
+      "$className": "ProximityPromptService",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a000003c0"
+        }
+      }
+    },
+    "ReplicatedFirst": {
+      "$path": "src/ReplicatedFirst"
+    },
+    "ReplicatedStorage": {
+      "$path": "src/ReplicatedStorage"
+    },
+    "Selection": {
+      "$className": "Selection",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a0000037e"
+        }
+      }
+    },
+    "ServerScriptService": {
+      "$path": "src/ServerScriptService"
+    },
+    "ServerStorage": {
+      "$path": "src/ServerStorage"
+    },
+    "ServiceVisibilityService": {
+      "$className": "ServiceVisibilityService",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a000003a3"
+        }
+      }
+    },
+    "SoundService": {
+      "$path": "src/SoundService"
+    },
+    "StarterGui": {
+      "$path": "src/StarterGui"
+    },
+    "StarterPack": {
+      "$path": "src/StarterPack"
+    },
+    "StarterPlayer": {
+      "$path": "src/StarterPlayer"
+    },
+    "StudioData": {
+      "$className": "StudioData",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a0000036b"
+        }
+      }
+    },
+    "Teams": {
+      "$path": "src/Teams"
+    },
+    "Teleport Service": {
+      "$className": "TeleportService",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a00000375"
+        }
+      }
+    },
+    "TestService": {
+      "$className": "TestService",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a000003c2"
+        }
+      }
+    },
+    "TextChatService": {
+      "$className": "TextChatService",
+      "$properties": {
+        "Attributes": {},
+        "ChatVersion": "TextChatService",
+        "IsLegacyChatDisabled": true,
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a00000365"
+        }
+      },
+      "BubbleChatConfiguration": {
+        "$className": "BubbleChatConfiguration",
+        "$properties": {
+          "Attributes": {},
+          "Font": "BuilderSansMedium",
+          "FontFace": {
+            "cachedFaceId": "rbxasset://fonts/BuilderSans-Medium.otf",
+            "family": "rbxasset://fonts/families/BuilderSans.json",
+            "style": "Normal",
+            "weight": "Medium"
+          },
+          "Tags": [],
+          "TextSize": 20,
+          "UniqueId": {
+            "UniqueId": "2d0ca22412d6ec600a477f1a000003ce"
+          }
+        },
+        "ImageLabel": {
+          "$className": "ImageLabel",
+          "$properties": {
+            "Attributes": {},
+            "BackgroundColor3": [1, 1, 1],
+            "BorderColor3": [0.1059, 0.1647, 0.2078],
+            "Size": [[0.0, 100.0], [0.0, 100.0]],
+            "Tags": [],
+            "UniqueId": {
+              "UniqueId": "2d0ca22412d6ec600a477f1a000003d0"
+            }
+          }
+        },
+        "UICorner": {
+          "$className": "UICorner",
+          "$properties": {
+            "Attributes": {},
+            "Tags": [],
+            "UniqueId": {
+              "UniqueId": "2d0ca22412d6ec600a477f1a000003d1"
+            }
+          }
+        },
+        "UIGradient": {
+          "$className": "UIGradient",
+          "$properties": {
+            "Attributes": {},
+            "Enabled": false,
+            "Tags": [],
+            "UniqueId": {
+              "UniqueId": "2d0ca22412d6ec600a477f1a000003cf"
+            }
+          }
+        },
+        "UIPadding": {
+          "$className": "UIPadding",
+          "$properties": {
+            "Attributes": {},
+            "PaddingBottom": [0, 8],
+            "PaddingLeft": [0, 8],
+            "PaddingRight": [0, 8],
+            "PaddingTop": [0, 8],
+            "Tags": [],
+            "UniqueId": {
+              "UniqueId": "2d0ca22412d6ec600a477f1a000003d2"
+            }
+          }
+        }
+      },
+      "ChannelTabsConfiguration": {
+        "$className": "ChannelTabsConfiguration",
+        "$properties": {
+          "Attributes": {},
+          "Tags": [],
+          "UniqueId": {
+            "UniqueId": "2d0ca22412d6ec600a477f1a000003d3"
+          }
+        }
+      },
+      "ChatInputBarConfiguration": {
+        "$className": "ChatInputBarConfiguration",
+        "$properties": {
+          "Attributes": {},
+          "FontFace": {
+            "cachedFaceId": "rbxasset://fonts/BuilderSans-Medium.otf",
+            "family": "rbxasset://fonts/families/BuilderSans.json",
+            "style": "Normal",
+            "weight": "Medium"
+          },
+          "Tags": [],
+          "TextSize": 18,
+          "UniqueId": {
+            "UniqueId": "2d0ca22412d6ec600a477f1a000003cd"
+          }
+        }
+      },
+      "ChatWindowConfiguration": {
+        "$className": "ChatWindowConfiguration",
+        "$properties": {
+          "Attributes": {},
+          "FontFace": {
+            "cachedFaceId": "rbxasset://fonts/BuilderSans-Medium.otf",
+            "family": "rbxasset://fonts/families/BuilderSans.json",
+            "style": "Normal",
+            "weight": "Medium"
+          },
+          "Tags": [],
+          "TextSize": 18,
+          "UniqueId": {
+            "UniqueId": "2d0ca22412d6ec600a477f1a000003cc"
+          }
+        }
+      }
+    },
+    "TouchInputService": {
+      "$className": "TouchInputService",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a00000387"
+        }
+      }
+    },
+    "TweenService": {
+      "$className": "TweenService",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a00000363"
+        }
+      }
+    },
+    "UGCAvatarService": {
+      "$className": "UGCAvatarService",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a000003c3"
+        }
+      }
+    },
+    "VideoCaptureService": {
+      "$className": "VideoCaptureService",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a00000354"
+        }
+      }
+    },
+    "VideoService": {
+      "$className": "VideoService",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a000003df"
+        }
+      }
+    },
+    "VirtualInputManager": {
+      "$className": "VirtualInputManager",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a000003c4"
+        }
+      }
+    },
+    "VoiceChatService": {
+      "$className": "VoiceChatService",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a000003c5"
+        },
+        "UseAudioApi": "Enabled"
+      }
+    },
+    "VRService": {
+      "$className": "VRService",
+      "$properties": {
+        "Attributes": {},
+        "Tags": [],
+        "UniqueId": {
+          "UniqueId": "2d0ca22412d6ec600a477f1a00000382"
+        }
+      }
+    },
+    "Workspace": {
+      "$path": "src/Workspace"
+    }
+  }
+}

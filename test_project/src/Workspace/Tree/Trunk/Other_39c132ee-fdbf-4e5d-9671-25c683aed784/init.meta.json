@@ -1,0 +1,17 @@
+{
+  "className": "Texture",
+  "originalName": "Other",
+  "properties": {
+    "Attributes": {},
+    "Color3": [0.5294, 1, 0.4549],
+    "Face": "Top",
+    "StudsPerTileU": 4.5985,
+    "StudsPerTileV": 3.6788,
+    "Tags": ["roplica_id@ab70d745-e6bd-427f-af46-1cdce501e815"],
+    "TextureContent": "rbxassetid://1352046744",
+    "Transparency": 0.85,
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00007bb8"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "className": "Model",
+  "originalName": "Tree",
+  "properties": {
+    "Attributes": {},
+    "HistoryId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00007bac"
+    },
+    "ModelMeshCFrame": [-106.7673, -40.4009, -185.1804, 1.0, 0.0, 0, 0.0, 1.0, 0, 0, 0, 1.0],
+    "SourceAssetId": 3755594081,
+    "Tags": ["roplica_id@79f059dd-2204-4c85-a312-2c7af19cf32f"],
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00007c9f"
+    },
+    "WorldPivotData": [-104.7667, 16.6806, -217.2801, 0, 0, 1, 0, 1, 0, -1, 0, 0]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "className": "StarterPlayer",
+  "keepUnknowns": true,
+  "properties": {
+    "Attributes": {},
+    "AvatarJointUpgrade_SerializedRollout": "Enabled",
+    "CameraMaxZoomDistance": 128,
+    "CharacterBreakJointsOnDeath": false,
+    "Tags": ["roplica_id@31ff99b5-de65-44f5-94eb-9ad40f5b3d5c"],
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a0000036d"
+    }
+  }
+}

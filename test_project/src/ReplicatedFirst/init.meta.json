@@ -1,0 +1,11 @@
+{
+  "className": "ReplicatedFirst",
+  "keepUnknowns": true,
+  "properties": {
+    "Attributes": {},
+    "Tags": ["roplica_id@36b4a80c-0f0f-4888-acde-2f0c5047f380"],
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00000361"
+    }
+  }
+}

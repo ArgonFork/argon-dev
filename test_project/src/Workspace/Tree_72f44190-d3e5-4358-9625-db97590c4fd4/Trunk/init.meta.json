@@ -1,0 +1,24 @@
+{
+  "className": "MeshPart",
+  "properties": {
+    "Anchored": true,
+    "Attributes": {},
+    "CFrame": [-27.1242, 21.6806, -92.1667, 0, 0, 1, 0, 1, 0, -1, 0, 0],
+    "Color": [108, 93, 70],
+    "HistoryId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00007bad"
+    },
+    "InitialSize": [6.7973, 11.1994, 5.2213],
+    "Material": "Slate",
+    "MeshContent": "rbxassetid://743209096",
+    "PhysicalConfigData": "CSGPHS\u0000\u0000\u0000\u0000BLOCK",
+    "RenderFidelity": "Precise",
+    "Size": [28.5986, 47.3612, 22.2264],
+    "Tags": ["roplica_id@9ae01d81-778c-4bdc-98ee-adfd3538ccc6"],
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a0000805b"
+    },
+    "UnscaledVolInertiaDiags": [5057.5645, 2433.4424, 5684.979],
+    "UnscaledVolume": 397.4798
+  }
+}

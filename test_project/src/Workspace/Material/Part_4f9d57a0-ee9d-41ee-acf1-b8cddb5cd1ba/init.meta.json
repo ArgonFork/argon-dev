@@ -1,0 +1,20 @@
+{
+  "className": "Part",
+  "originalName": "Part",
+  "properties": {
+    "Anchored": true,
+    "Attributes": {},
+    "CFrame": [55.5, 6.5, -39.5, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+    "Color": [159, 161, 172],
+    "FormFactor": "Symmetric",
+    "HistoryId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a000003c7"
+    },
+    "Material": "WoodPlanks",
+    "Size": [3, 3, 3],
+    "Tags": ["roplica_id@90912722-e1dc-4ddd-8c47-2cdc65c0d2ac"],
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00002282"
+    }
+  }
+}

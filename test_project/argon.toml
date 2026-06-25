@@ -1,0 +1,13 @@
+# Project-local Argon config. Overrides the global ~/.argon/config.toml when
+# running Argon commands from this workspace (config.rs: Workspace config
+# replaces Global). Only the keys set here differ from Argon's defaults.
+
+# Keep duplicate-name siblings on syncback by suffixing them with a UUID and
+# storing the real name as `originalName` in meta (restored on build).
+keep_duplicates = true
+
+# Keep test runs hermetic and quiet: no update checks, no plugin install, no
+# telemetry.
+check_updates = false
+install_plugin = false
+share_stats = false

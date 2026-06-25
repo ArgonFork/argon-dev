@@ -1,0 +1,16 @@
+{
+  "className": "Attachment",
+  "originalName": "Light",
+  "properties": {
+    "Attributes": {},
+    "CFrame": [22.0, 10, 7.0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+    "HistoryId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00004cde"
+    },
+    "Tags": ["roplica_id@97fc4fd7-a18d-4b64-aa1b-49e0cd986595"],
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a000053e2"
+    },
+    "Visible": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "className": "Terrain",
+  "properties": {
+    "AcquisitionMethod": "Other",
+    "Attributes": {},
+    "MaterialColors": {
+      "Asphalt": [80, 84, 84],
+      "Basalt": [75, 74, 74],
+      "Brick": [138, 97, 73],
+      "Cobblestone": [134, 134, 118],
+      "Concrete": [152, 152, 152],
+      "CrackedLava": [255, 24, 67],
+      "Glacier": [221, 228, 229],
+      "Grass": [111, 126, 62],
+      "Ground": [140, 130, 104],
+      "Ice": [204, 210, 223],
+      "LeafyGrass": [106, 134, 64],
+      "Limestone": [255, 243, 192],
+      "Mud": [121, 112, 98],
+      "Pavement": [143, 144, 135],
+      "Rock": [99, 100, 102],
+      "Salt": [255, 255, 254],
+      "Sand": [207, 203, 167],
+      "Sandstone": [148, 124, 95],
+      "Slate": [88, 89, 86],
+      "Snow": [235, 253, 255],
+      "WoodPlanks": [172, 148, 108]
+    },
+    "PhysicsGrid": "",
+    "SmoothGrid": "",
+    "Tags": ["roplica_id@59e87de1-1833-4f2c-a2df-44a41dcd7a37"],
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a000003c8"
+    },
+    "WaterColor": [0.0471, 0.3294, 0.3608]
+  }
+}

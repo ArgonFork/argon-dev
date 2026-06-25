@@ -1,0 +1,16 @@
+{
+  "className": "PointLight",
+  "properties": {
+    "Attributes": {},
+    "Brightness": 1.24,
+    "HistoryId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00004c90"
+    },
+    "Range": 18,
+    "Shadows": true,
+    "Tags": ["roplica_id@01368f70-f969-44f9-822a-51b831db6f27"],
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00005a06"
+    }
+  }
+}

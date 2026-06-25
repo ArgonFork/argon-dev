@@ -1,0 +1,11 @@
+{
+  "className": "ScreenGui",
+  "properties": {
+    "Attributes": {},
+    "Tags": ["roplica_id@4d2aa69d-2a75-4ba8-9d3a-5dc1e0efc87e"],
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00004861"
+    },
+    "ZIndexBehavior": "Sibling"
+  }
+}

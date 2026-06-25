@@ -1,0 +1,13 @@
+{
+  "className": "SoundService",
+  "keepUnknowns": true,
+  "properties": {
+    "Attributes": {},
+    "DefaultListenerLocation": "Camera",
+    "RespectFilteringEnabled": true,
+    "Tags": ["roplica_id@f57ba1ff-70e0-49c7-83c9-2deeee1b309d"],
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00000348"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "className": "MeshPart",
+  "properties": {
+    "Attributes": {},
+    "CanCollide": false,
+    "CanQuery": false,
+    "CanTouch": false,
+    "CFrame": [43.4061, 6.4245, 46.8886, 1.0, 0, 0, 0, 1, 0, 0, 0, 1.0],
+    "Color": [248, 248, 248],
+    "DoubleSided": true,
+    "InitialSize": [50, 23.1344, 39.8988],
+    "Material": "Fabric",
+    "MeshContent": "rbxassetid://11390797210",
+    "PhysicalConfigData": "",
+    "Size": [7.3251, 3.3886, 5.845],
+    "SourceAssetId": 554921259,
+    "Tags": ["roplica_id@076a77f4-6770-456f-921e-76d64cc56f84"],
+    "TextureContent": "rbxassetid://11390797271",
+    "Transparency": 0.02,
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00004ad2"
+    },
+    "UnscaledCofm": [0.1868, 2.9734, -5.7324],
+    "UnscaledVolInertiaDiags": [111806.3047, 266909.0938, 185746.4063],
+    "UnscaledVolInertiaOffDiags": [22378.1016, 124163.6484, -15902.8672],
+    "UnscaledVolume": 905.2655,
+    "VertexCount": 18
+  }
+}

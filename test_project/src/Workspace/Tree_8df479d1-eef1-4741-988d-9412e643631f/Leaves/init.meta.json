@@ -1,0 +1,21 @@
+{
+  "className": "Part",
+  "properties": {
+    "Anchored": true,
+    "Attributes": {},
+    "BottomSurface": "Smooth",
+    "CanCollide": false,
+    "CFrame": [-103.477, 25.0695, -218.2895, 0, 0, 1, 0, 1, 0, -1, 0, 0],
+    "HistoryId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00007bba"
+    },
+    "Material": "Fabric",
+    "Size": [3.8506, 3.8506, 3.8506],
+    "Tags": ["roplica_id@24a69a58-a26a-4e3a-a411-7c430abfea28"],
+    "TopSurface": "Smooth",
+    "Transparency": 0.1,
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00007cad"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "className": "ImageLabel",
+  "properties": {
+    "AnchorPoint": [0.5, 0.5],
+    "Attributes": {},
+    "BackgroundColor3": [1, 1, 1],
+    "BorderColor3": [0, 0, 0],
+    "BorderSizePixel": 0,
+    "ImageContent": "rbxassetid://9276018925",
+    "Position": [[0.5, 0.0], [0.6, 0.0]],
+    "Size": [[0.5, 0.0], [0.5, 0.0]],
+    "Tags": ["roplica_id@d724a572-d6aa-4fcd-a0fd-02c3fa03fa62"],
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00003c60"
+    }
+  }
+}

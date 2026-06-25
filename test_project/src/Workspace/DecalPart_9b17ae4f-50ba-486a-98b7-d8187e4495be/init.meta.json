@@ -1,0 +1,18 @@
+{
+  "className": "Part",
+  "originalName": "DecalPart",
+  "properties": {
+    "Attributes": {},
+    "BottomSurface": "Smooth",
+    "CFrame": [-10.5, 6.5, 51.0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+    "HistoryId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a000060ae"
+    },
+    "Size": [13, 13, 2],
+    "Tags": ["roplica_id@0b39c793-7ceb-47ca-9a6a-7e75ae4a87d2"],
+    "TopSurface": "Smooth",
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a0000627c"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "className": "Attachment",
+  "properties": {
+    "Attributes": {},
+    "CFrame": [-5.8895, 6.7308, -6.7309, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+    "HistoryId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00004cde"
+    },
+    "Tags": ["roplica_id@c8749e93-fa51-4b3d-a3b6-c5ac1b2241de"],
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00005aad"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "className": "Part",
+  "properties": {
+    "Attributes": {},
+    "BottomSurface": "Smooth",
+    "CFrame": [9, 4.5, 60.0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+    "Size": [36, 9, 2],
+    "Tags": ["roplica_id@90f6dd12-87df-437b-9917-6e09988cb677"],
+    "TopSurface": "Smooth",
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a000060ae"
+    }
+  }
+}

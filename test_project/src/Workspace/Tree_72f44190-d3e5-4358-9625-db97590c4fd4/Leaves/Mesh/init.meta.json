@@ -1,0 +1,17 @@
+{
+  "className": "SpecialMesh",
+  "properties": {
+    "Attributes": {},
+    "HistoryId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00007bbb"
+    },
+    "MeshId": "rbxassetid://743209371",
+    "MeshType": "FileMesh",
+    "Scale": [4.2241, 4.2241, 4.2241],
+    "Tags": ["roplica_id@020a0a1f-7886-42ad-84b8-85907d786cc4"],
+    "TextureId": "rbxassetid://1354364345",
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00008069"
+    }
+  }
+}

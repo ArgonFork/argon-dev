@@ -1,0 +1,14 @@
+{
+  "className": "BillboardGui",
+  "properties": {
+    "Active": true,
+    "Attributes": {},
+    "ClipsDescendants": true,
+    "Size": [[15.0, 0.0], [15.0, 0.0]],
+    "Tags": ["roplica_id@f4d7832a-2830-45fe-ae24-7624888cbc32"],
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00004537"
+    },
+    "ZIndexBehavior": "Sibling"
+  }
+}

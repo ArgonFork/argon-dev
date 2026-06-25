@@ -1,0 +1,6 @@
+[submodule "argon-roblox"]
+	path = argon-roblox
+	url = https://github.com/AidenTran900/roplica-roblox.git
+[submodule "argon-vscode"]
+	path = argon-vscode
+	url = https://github.com/AidenTran900/roplica-vscode

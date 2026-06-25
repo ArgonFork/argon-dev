@@ -1,0 +1,13 @@
+{
+  "className": "Model",
+  "properties": {
+    "Attributes": {},
+    "ModelMeshCFrame": [21.0131, -13.2001, -42.6876, 0, 0, 1.0, 0, 1, 0, -1.0, 0, 0],
+    "SourceAssetId": 8959904556,
+    "Tags": ["roplica_id@fec21586-86f4-4a18-84e8-0ef85ff0ae6b", "roplica_sync_rbxm"],
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00002f83"
+    },
+    "WorldPivotData": [-23.9999, 22.8, -27.0, 0, 0, -1, 0, 1, 0, 1, 0, 0]
+  }
+}

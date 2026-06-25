@@ -1,0 +1,11 @@
+{
+  "className": "StarterGui",
+  "keepUnknowns": true,
+  "properties": {
+    "Attributes": {},
+    "Tags": ["roplica_id@22d3f667-6e2a-4fbc-97aa-859b2e073559"],
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a0000036f"
+    }
+  }
+}

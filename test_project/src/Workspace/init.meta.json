@@ -1,0 +1,16 @@
+{
+  "className": "Workspace",
+  "keepUnknowns": true,
+  "properties": {
+    "Attributes": {},
+    "SignalBehavior": "Deferred",
+    "StreamingEnabled": true,
+    "StreamingIntegrityMode": "PauseOutsideLoadedArea",
+    "StreamOutBehavior": "Opportunistic",
+    "Tags": ["roplica_id@d1310bec-f1ff-4a9a-89f0-81dd805117d8"],
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00000002"
+    },
+    "WorldPivotData": [0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1]
+  }
+}

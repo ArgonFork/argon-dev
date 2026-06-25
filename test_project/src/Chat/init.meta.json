@@ -1,0 +1,11 @@
+{
+  "className": "Chat",
+  "keepUnknowns": true,
+  "properties": {
+    "Attributes": {},
+    "Tags": ["roplica_id@c83e058f-749b-422b-8230-8896e9b6a3c6"],
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a0000035c"
+    }
+  }
+}

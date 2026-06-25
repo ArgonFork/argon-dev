@@ -1,0 +1,18 @@
+{
+  "className": "Texture",
+  "properties": {
+    "Attributes": {},
+    "Face": "Left",
+    "HistoryId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00007bae"
+    },
+    "StudsPerTileU": 4.3309,
+    "StudsPerTileV": 3.4647,
+    "Tags": ["roplica_id@2dbbf82a-0ccc-49fd-966b-e26c18ef1dcd"],
+    "TextureContent": "rbxassetid://1352046477",
+    "Transparency": 0.3,
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00007cf1"
+    }
+  }
+}

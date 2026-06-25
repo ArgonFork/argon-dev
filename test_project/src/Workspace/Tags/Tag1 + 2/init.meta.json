@@ -1,0 +1,13 @@
+{
+  "className": "Model",
+  "properties": {
+    "Attributes": {},
+    "HistoryId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00008737"
+    },
+    "Tags": ["Tag1", "Tag2", "roplica_id@81eb2c38-8a89-4825-ae77-f8d7e834b3ac"],
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a0000875d"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "className": "SurfaceAppearance",
+  "properties": {
+    "Attributes": {},
+    "ColorMapContent": "rbxassetid://11390783210",
+    "HistoryId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00004ad4"
+    },
+    "MetalnessMapContent": "rbxassetid://5352896021",
+    "RoughnessMapContent": "rbxassetid://5352896021",
+    "Tags": ["roplica_id@378cb0b0-9a92-4e5a-874f-73bc79763182"],
+    "TexturePack": "rbxassetid://11390847251",
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00005a03"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "className": "Lighting",
+  "keepUnknowns": true,
+  "properties": {
+    "Ambient": [0.5412, 0.5412, 0.5412],
+    "Attributes": {
+      "RBX_LightingTechnologyUnifiedMigration": true,
+      "RBX_OriginalTechnologyOnFileLoad": {
+        "Int32": 3
+      }
+    },
+    "Brightness": 2,
+    "FogColor": [0.7529, 0.7529, 0.7529],
+    "GlobalShadows": true,
+    "LightingStyle": "Realistic",
+    "OutdoorAmbient": [0.502, 0.502, 0.502],
+    "Outlines": false,
+    "PrioritizeLightingQuality": true,
+    "ShadowSoftness": 0.05,
+    "Tags": ["roplica_id@fb045f32-f22a-402c-932c-b4bd5e9477a8"],
+    "Technology": "ShadowMap",
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a000003be"
+    }
+  }
+}

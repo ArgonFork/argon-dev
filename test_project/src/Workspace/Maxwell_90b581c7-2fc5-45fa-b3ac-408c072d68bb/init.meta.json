@@ -1,0 +1,18 @@
+{
+  "className": "Model",
+  "originalName": "Maxwell",
+  "properties": {
+    "Attributes": {},
+    "HistoryId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00004ad1"
+    },
+    "ModelMeshCFrame": [-14.4451, 3.1533, 59.0297, 0.2589, 0, 0.9661, 0, 1, 0, -0.9661, 0, 0.2589],
+    "Scale": 3.099,
+    "SourceAssetId": 11390853367,
+    "Tags": ["roplica_id@41588c4d-e729-475b-82f7-395173f2499e"],
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a00005aa8"
+    },
+    "WorldPivotData": [36.5071, 4.6557, 50.0472, 0, 0, -1, 0, 1, 0, 1, 0, 0]
+  }
+}

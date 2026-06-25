@@ -1,0 +1,12 @@
+{
+  "className": "Players",
+  "keepUnknowns": true,
+  "properties": {
+    "Attributes": {},
+    "PreferredPlayers": 56832,
+    "Tags": ["roplica_id@6813f13a-7244-4e10-843e-01d7a93c3a3d"],
+    "UniqueId": {
+      "UniqueId": "2d0ca22412d6ec600a477f1a0000035e"
+    }
+  }
+}
