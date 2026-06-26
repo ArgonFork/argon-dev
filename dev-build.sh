@@ -247,7 +247,21 @@ if $BUILD_PLUGIN; then
 
     # Install to Studio plugins folder
     STUDIO_PLUGINS=""
-    if [[ -d "${HOME}/.local/share/Roblox/Plugins" ]]; then
+    if [[ -d "${HOME}/.var/app/org.vinegarhq.Vinegar" ]]; then
+        # Flatpak Vinegar detected
+        VINEGAR_STUDIO="${HOME}/.var/app/org.vinegarhq.Vinegar/data/roblox-studio"
+        if [[ ! -d "$VINEGAR_STUDIO" ]]; then
+            warn "Vinegar detected but Roblox Studio data dir missing"
+            warn "You must expose the Vinegar Flatpak filesystem and launch Studio at least once:"
+            warn "  flatpak override --user --filesystem=home org.vinegarhq.Vinegar"
+            warn "  then launch Roblox Studio via Vinegar, close it, and re-run this script"
+            ok "built -> $PLUGIN_DIR/Argon.rbxm (not installed)"
+            cd "$ROOT"
+            return 0 2>/dev/null || true
+        fi
+        STUDIO_PLUGINS="$VINEGAR_STUDIO/Plugins"
+        mkdir -p "$STUDIO_PLUGINS"
+    elif [[ -d "${HOME}/.local/share/Roblox/Plugins" ]]; then
         STUDIO_PLUGINS="${HOME}/.local/share/Roblox/Plugins"
     elif [[ -d "${HOME}/Library/Application Support/Roblox/Plugins" ]]; then
         STUDIO_PLUGINS="${HOME}/Library/Application Support/Roblox/Plugins"
@@ -260,6 +274,7 @@ if $BUILD_PLUGIN; then
     else
         ok "built -> $PLUGIN_DIR/Argon.rbxm"
         warn "could not find Studio Plugins dir - copy Argon.rbxm there manually"
+        warn "if using Vinegar (Flatpak): flatpak override --user --filesystem=home org.vinegarhq.Vinegar"
     fi
 
     cd "$ROOT"
