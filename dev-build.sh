@@ -7,7 +7,7 @@ VSCODE_DIR="$ROOT/argon-vscode"
 PLUGIN_DIR="$ROOT/argon-roblox"
 EXT_LINK="${HOME}/.vscode/extensions/argon-dev"
 BIN_DIR="${HOME}/.local/bin"
-BIN_NAME="argon"
+BIN_NAME="argon-ex"
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -61,13 +61,13 @@ usage() {
 usage: ./dev-build.sh [setup] [cli] [vscode] [plugin] [--release] [--restart] [--no-restart]
 
   (no args)    build + install everything: cli, vscode, plugin
-  cli          build the Argon CLI -> ~/.local/bin/argon
+  cli          build the Argon Extended CLI -> ~/.local/bin/argon-ex
   vscode       build the VS Code extension (webview + webpack)
   plugin       build the Roblox plugin -> argon-roblox/Argon.rbxm
   setup        one-time: symlink VS Code extension into ~/.vscode/extensions, then exit
 
   --release    cargo build --release (default: debug)
-  --restart    kill any running `argon serve` after a cli build
+  --restart    kill any running `argon-ex serve` after a cli build
   --no-restart skip the serve check entirely
 
 flags combine, e.g. ./dev-build.sh cli vscode --release --restart
@@ -142,7 +142,7 @@ $BUILD_PLUGIN && STEP_TOTAL=$((STEP_TOTAL + 1))
 # ── preflight ─────────────────────────────────────────────────────────────────
 $BUILD_CLI    && need cargo "install Rust: https://rustup.rs"
 $BUILD_VSCODE && need npm   "install Node.js: https://nodejs.org"
-$BUILD_PLUGIN && need argon "build cli first: ./dev-build.sh cli"
+$BUILD_PLUGIN && need argon-ex "build cli first: ./dev-build.sh cli"
 $BUILD_PLUGIN && need wally "install via rokit: rokit add UpliftGames/wally"
 
 if $BUILD_VSCODE && [[ ! -L "$EXT_LINK" ]]; then
@@ -157,11 +157,13 @@ if $BUILD_CLI; then
     cd "$CLI_DIR"
 
     if $RELEASE; then
-        run_spin "cargo build --release" cargo build --release
+        run_spin "cargo build --release" cargo build --release --bin argon-ex --bin reflection_dump
         BINARY="$CLI_DIR/target/release/$BIN_NAME"
+        REFLECT_DUMP="$CLI_DIR/target/release/reflection_dump"
     else
-        run_spin "cargo build" cargo build
+        run_spin "cargo build" cargo build --bin argon-ex --bin reflection_dump
         BINARY="$CLI_DIR/target/debug/$BIN_NAME"
+        REFLECT_DUMP="$CLI_DIR/target/debug/reflection_dump"
     fi
 
     mkdir -p "$BIN_DIR"
@@ -187,23 +189,28 @@ if $BUILD_CLI; then
 
     info "version: $("$BIN_DIR/$BIN_NAME" --version 2>/dev/null || echo '?')"
 
+    # Generate global reflection catalog for VS Code extension
+    mkdir -p "${HOME}/.argon-ex"
+    "$REFLECT_DUMP" > "${HOME}/.argon-ex/reflection.json"
+    ok "reflection catalog -> ${HOME}/.argon-ex/reflection.json"
+
     # Kill stale serve process if running (holds old binary in memory)
     if [[ "$RESTART_SERVE" != "no" ]]; then
-        mapfile -t SERVE_PIDS < <(pgrep -f "argon serve" 2>/dev/null || true)
+        mapfile -t SERVE_PIDS < <(pgrep -f "argon-ex serve" 2>/dev/null || true)
         if [[ ${#SERVE_PIDS[@]} -gt 0 ]]; then
-            warn "argon serve is running (pid ${SERVE_PIDS[*]}) - still the OLD binary"
+            warn "argon-ex serve is running (pid ${SERVE_PIDS[*]}) - still the OLD binary"
             DO_KILL=false
             if [[ "$RESTART_SERVE" == "yes" ]]; then
                 DO_KILL=true
             elif [[ -t 0 ]]; then
-                read -rp "  kill it now so the next 'argon serve' is fresh? [y/N] " ans
+                read -rp "  kill it now so the next 'argon-ex serve' is fresh? [y/N] " ans
                 [[ "$ans" =~ ^[Yy]$ ]] && DO_KILL=true
             fi
             if $DO_KILL; then
                 kill "${SERVE_PIDS[@]}" 2>/dev/null || true
-                ok "stopped stale serve - rerun 'argon serve' in your project"
+                ok "stopped stale serve - rerun 'argon-ex serve' in your project"
             else
-                warn "restart manually: kill ${SERVE_PIDS[*]} && argon serve"
+                warn "restart manually: kill ${SERVE_PIDS[*]} && argon-ex serve"
             fi
         fi
     fi
@@ -234,7 +241,7 @@ if $BUILD_PLUGIN; then
     cd "$PLUGIN_DIR"
 
     run_spin "wally install" wally install
-    run_spin "argon build" argon build --output Argon.rbxm
+    run_spin "argon-ex build" argon-ex build --output Argon.rbxm
 
     [[ -f "Argon.rbxm" ]] || fail "plugin build did not produce Argon.rbxm"
 

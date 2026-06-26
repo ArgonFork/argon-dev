@@ -4,7 +4,7 @@ Monorepo for local Argon development. Three components:
 
 | Directory | Language | What |
 |---|---|---|
-| `argon/` | Rust | CLI binary (`argon` command) |
+| `argon/` | Rust | CLI binary (`argon-ex` command) |
 | `argon-vscode/` | TypeScript + React | VS Code extension |
 | `argon-roblox/` | Luau | Roblox Studio plugin |
 
@@ -37,7 +37,7 @@ Monorepo for local Argon development. Three components:
   setup        symlink VS Code extension, then exit
 
   --release    cargo build --release (default: debug)
-  --restart    kill any running `argon serve` after cli build
+  --restart    kill any running `argon-ex serve` after cli build
   --no-restart skip the serve check
 ```
 
@@ -55,7 +55,7 @@ cargo build --release          # release build -> target/release/argon
 ./dev-build.sh cli --restart   # build + install + kill stale serve
 ```
 
-After installing, verify with `argon --version`.
+After installing, verify with `argon-ex --version`.
 
 ### VS Code extension (`argon-vscode/`)
 
@@ -86,7 +86,7 @@ After any change rebuilds:
 
 ### Roblox plugin (`argon-roblox/`)
 
-Requires `argon` CLI on PATH (build CLI first).
+Requires `argon-ex` CLI on PATH (build CLI first).
 
 ```bash
 ./dev-build.sh plugin          # build + install to Studio plugins dir
@@ -96,7 +96,7 @@ Or manually:
 ```bash
 cd argon-roblox
 wally install
-argon build --output Argon.rbxm
+argon-ex build --output Argon.rbxm
 # Copy Argon.rbxm to your Studio Plugins folder
 ```
 
