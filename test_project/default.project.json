@@ -96,7 +96,7 @@
         "SourceAssetId": -1,
         "Tags": [],
         "UniqueId": {
-          "UniqueId": "7f972faa445797d00a4c99a00000040a"
+          "UniqueId": "7f972faa445797d00a4c99a000000407"
         }
       }
     },
@@ -157,12 +157,12 @@
       }
     },
     "Instance": {
-      "$className": "LodDataService",
+      "$className": "ScriptService",
       "$properties": {
         "Attributes": {},
         "Tags": [],
         "UniqueId": {
-          "UniqueId": "2d0ca22412d6ec600a477f1a000003bf"
+          "UniqueId": "2d0ca22412d6ec600a477f1a00000384"
         }
       }
     },
